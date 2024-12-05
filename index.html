@@ -3,9 +3,394 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Project | test</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <title>Resopnsive Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="animation.css" />
   </head>
   <body>
-    <h1>Hello world</h1>
+    <div class="container">
+      <header class="header">
+        <a href="./index.html" class="logo">SAL MONINEATH</a>
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
+
+        <nav class="nav-bar">
+          <ul>
+            <li><a href="#home">HOME</a></li>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#blogs">BLOGS</a></li>
+            <li><a href="#experience">EXPERIENCES</a></li>
+            <li><a href="#education">EDUCATION</a></li>
+            <li><a href="#skills">SKILLS</a></li>
+            <li><a href="#portfolio">PORTFOLIO</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <!--home-->
+      <section class="home fade-in" id="home">
+        <div class="home-content">
+          <h1>Hello! <span>I'm Neath.</span></h1>
+
+          <hr />
+
+          <p>
+            I’m a Frontend Developer <br />with expertise in creating
+            <br />modern, responsive, and user- <br />friendly websites and
+            applications.
+          </p>
+          <div class="social-media">
+            <a href="https://www.facebook.com" target="_blank">
+              <i class="fa-brands fa-facebook"></i>
+            </a>
+            <a href="https://discord.com/channels/@me" target="_blank">
+              <i class="fa-brands fa-discord"></i>
+            </a>
+            <a href="https://t.me/dex593" target="_blank">
+              <i class="fa-brands fa-telegram"></i>
+            </a>
+            <a href="https://github.com/neathcmd" target="_blank">
+              <i class="fa-brands fa-github"></i>
+            </a>
+          </div>
+
+          <a href="#" class="btn">DOWNLOAD CV</a>
+        </div>
+
+        <div class="home-img slide-in">
+          <img src="./img/home-img.png" alt="home-img" />
+        </div>
+      </section>
+
+      <!--about-->
+      <section class="about" id="about">
+        <div class="about-img">
+          <img src="./img/home-img.png" alt="about-img" />
+        </div>
+
+        <div class="about-content about-left fadeInLeft">
+          <h1 class="about-head">ABOUT <span>ME.</span></h1>
+          <hr />
+          <h3><span>Frontend</span> Developer</h3>
+          <p>
+            I studied Javascript for 1 week at SOB. I received training on
+            Javascript front-end, worked on projects related to the front-end
+            portfolio website, and learned to work with team-related front-end
+            developer skills.
+          </p>
+        </div>
+      </section>
+      <!--blogs-->
+      <section class="blogs" id="blogs">
+        <h1 class="blogs-header">MY BLOGS.</h1>
+        <div class="blogs-container">
+          <div class="blogs-box about-left fadeInLeft">
+            <h1 class="blogs-head">
+              MY CODING JOURNEY: BUILDING MY FIRST WEBSITE
+            </h1>
+            <hr />
+            <h5 class="years">2024</h5>
+            <hr />
+            <p>
+              In 2024, I embarked on my journey into the world of web
+              development. I started learning the basics of HTML, CSS, and
+              JavaScript, which gave me the foundation to build my first
+              website. It was a simple personal portfolio where I showcased my
+              skills, projects, and interests.
+            </p>
+            <hr />
+            <h5 class="years">The Challenges</h5>
+            <hr />
+            <p>
+              One of the biggest challenges I faced was understanding the Document Object 
+              Model (DOM) and how JavaScript could interact with it. Initially, I struggled 
+              with manipulating HTML elements dynamically, but after a lot of practice, 
+              I finally grasped concepts like event listeners and DOM manipulation.
+            </p>
+            <hr />
+            <h5 class="years">The Results</h5>
+            <hr />
+            <p>
+              The final product was a clean, responsive portfolio website. 
+              Although it wasn't anything too fancy, it was a huge achievement for me.
+              I was proud of the fact that I was able to take what I learned and apply 
+              it to create something functional and personal.
+            </p>
+          </div>
+
+          <div class="blogs-box about-left fadeInLeft">
+            <h1 class="blogs-head">
+              EXPANDING MY SKILLS: LEARNING Frontend DEVELOPMENT
+            </h1>
+            <hr />
+            <h5 class="years">2025</h5>
+            <hr />
+            <p>
+              In 2025, I took the leap into Frontend development. 
+              I decided to learn react js and bootstrap to build web applications. 
+              I also delved into Backend, learning Node.js and how to connect a frontend to a backend.
+            </p>
+
+            <hr />
+            <h5 class="years">The Experience</h5>
+            <hr />
+            <p>
+              Building a simple website was a game-changer. 
+              With Javacript and React js, I could create an interactive website, 
+              The learning curve was steep, especially with asynchronous programming and promises, 
+              but I found the process exciting.
+            </p>
+
+            <hr />
+            <h5 class="years">The Results</h5>
+            <hr />
+            <p>
+              After weeks of learning and experimenting, 
+              I managed to build a basic but functional 
+              website that could interact with the user.
+              This new skill set opened up opportunities 
+              to develop a web applications.
+            </p>
+          </div>
+
+          <div class="blogs-box about-left fadeInLeft">
+            <h1 class="blogs-head">
+              FUTURE PLANS: REACT AND BOOTSTRAP
+            </h1>
+            <hr />
+            <br>
+            <h5 class="years">2026</h5>
+            <hr />
+            <p>
+              Looking forward, my goal is to master React and Bootstrao for building dynamic, 
+              single-page applications. I also want to explore other backend technologies,
+              such as Python with Django, and learn more about DevOps practices to manage 
+              the deployment of my applications.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!--Experience-->
+      <section class="blogs" id="experience">
+        <h1 class="blogs-header">MY EXPERIENCES.</h1>
+        <div class="blogs-container">
+          <div class="blogs-box about-left fadeInLeft">
+            <h5 class="years">2025-2026</h5>
+            <hr />
+            <p>
+              I studied Javacript for 1 months at School of Business. 
+              I received training on Javacript-front end, 
+              worked on projects related to the front-end 
+              portfolio website, and learned how to work with
+              team related to front-end developer skills. 
+            </p>
+          </div>
+
+          <div class="blogs-box about-left fadeInLeft">
+            <h5 class="years">2024-2025</h5>
+            <hr />
+            <p>
+              I have created two websites using different coding languages, 
+              such as HTML and Javacript. One of them is a portfolio websites, 
+              and the other is a Coffee website.
+            </p>
+          </div>
+
+          <div class="blogs-box about-left fadeInLeft">
+            <h5 class="years">2023-2024</h5>
+            <hr />
+            <p>
+             I was a Freelancer graphic Designer at Pouk high school in Siemreap I have gain a lot of experience in graphic designer.
+            </p>
+          </div>
+      </section>
+      <!--Education-->
+      <section class="blogs" id="education">
+        <h1 class="blogs-header">MY EDUCATION.</h1>
+        <div class="blogs-container">
+          <div class="blogs-box about-left fadeInLeft">
+            <h1 class="blogs-head">
+              School of Business PSE
+            </h1>
+            <hr />
+            <h5 class="years">2024</h5>
+            <hr />
+            <p>
+              I study IT at School of Business PSE in 2024 and I'm interested in computer science.
+            </p>
+          </div>
+
+          <div class="blogs-box about-left fadeInLeft">
+            <h1 class="blogs-head">
+              Bee international School (Siem Reap)
+            </h1>
+            <hr />
+            <h5 class="years">2022</h5>
+            <hr />
+            <p>
+              I studied Microsoft Office at Bee international School in SR in 2022 and I Graduated in 2023.
+            </p>
+          </div>
+
+          <div class="blogs-box about-left fadeInLeft">
+            <h1 class="blogs-head">
+              Premier Information Technology School (Siem Reap)
+            </h1>
+            <hr />
+            <h5 class="years">2023</h5>
+            <hr />
+            <p>
+              I studied Adobe Photoshop and Adobe Illustrator at Premier Information Technology School 
+              in SR in May and I Graduated in july.
+            </p>
+          </div>
+      </section>
+
+      <!--skills-->
+      <section class="blogs" id="skills">
+        <h1 class="skills-header">MY SKILLS.</h1>
+        <div class="blogs-container">
+          <div class="blogs-box about-left fadeInLeft">
+            <h1 class="blogs-head">
+              HTML, CSS
+            </h1>
+            <hr />
+
+            <p>
+              Html, css are scripting languages used to create a web page and web apps.
+            </p>
+          </div>
+
+          <div class="blogs-box about-left fadeInLeft">
+            <h1 class="blogs-head">
+              JAVASCRIPT
+            </h1>
+            <hr />
+
+            <p>
+              Javascript is a cross platform, object oriented programing language used by developers to make web page interactive.
+            </p>
+          </div>
+
+          <div class="blogs-box about-left fadeInLeft">
+            <h1 class="blogs-head">
+              REACT JS
+            </h1>
+            <hr />
+
+            <p>
+              React js primary goal is to create user interface UI which enhance the speed of programs.
+            </p>
+          </div>
+
+          <div class="blogs-box about-left fadeInLeft">
+            <h1 class="blogs-head">
+              Adobe Photoshop
+            </h1>
+            <hr />
+
+            <p>
+              Adobe Photoshop is a powerful and versatile image editing 
+              software developed by Adobe Inc. It is widely used by photographers, 
+              graphic designers, digital artists, and other professionals for creating 
+              and editing images, graphics, and other visual content. Photoshop is known 
+              for its extensive tools and features that allow users to manipulate images 
+              at a pixel level.
+            </p>
+          </div>
+
+          <div class="blogs-box about-left fadeInLeft">
+            <h1 class="blogs-head">
+              Adobe Illustrator
+            </h1>
+            <hr />
+
+            <p>
+              Adobe Illustrator is a powerful vector graphics editing software 
+              developed by Adobe Inc. It is widely used by graphic designers, 
+              illustrators, and artists to create scalable illustrations, logos, 
+              typography, and other design elements. Unlike raster graphics
+              (made up of pixels), vector graphics in Illustrator are created
+              using mathematical paths, making them infinitely scalable without 
+              losing quality.
+            </p>
+          </div>
+
+          <div class="blogs-box about-left fadeInLeft">
+            <h1 class="blogs-head">
+              Microsoft Office
+            </h1>
+            <hr />
+
+            <p>
+              - Word, Excel, PowerPoint,
+              Microsoft Office is a suite of productivity applications 
+              developed by Microsoft. It is one of the most widely used 
+              software packages globally and includes tools for word processing, 
+              data analysis, presentations, email management, and more. It is
+              commonly used in businesses, educational institutions, and personal settings.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!--portfolio-->
+      <section class="portfolio" id="portfolio">
+        <h1 class="p">LATEST PROJECT.</h1>
+        <div class="portfolio-container">
+          <div class="portfolio-box">
+            <img src="./img/1.jpg" alt="project" />
+            <div class="portfolio-layer">
+              <h3>Web Designer</h3>
+              <p>Design portfolio for kilo IT.</p>
+              <i class="fa-solid fa-pen-nib"></i>
+            </div>
+          </div>
+
+          <div class="portfolio-box">
+            <img src="./img/2.jpg" alt="project" />
+            <div class="portfolio-layer">
+              <h3>E-commerce Website</h3>
+              <p>E-commerce website for N Cafe</p>
+              <i class="fa-solid fa-pen-nib"></i>
+            </div>
+          </div>
+
+          <div class="portfolio-box">
+            <img src="./img/3.jpg" alt="project" />
+            <div class="portfolio-layer">
+              <h3>Cafe Website</h3>
+              <p>website for N Cafe.</p>
+              <i class="fa-solid fa-pen-nib"></i>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer class="footer" id="contact">
+        <div class="footer-text">
+          <h5>CONTACT ME.</h5>
+          <p>Email: monrneath@gmail.com</p>
+          <p>Facebook: ko ko</p>
+          <p>Telegram: 088 290 6535</p>
+        </div>
+
+        <div class="footer-iconTop">
+          <a href="#home"><i class="fa-solid fa-angle-up"></i></a>
+        </div>
+      </footer>
+    </div>
+    <script src="main.js"></script>
   </body>
 </html>
